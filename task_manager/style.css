@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f7ff;
+  padding: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input, form button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  background: #e3f2fd;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  background-color: #c8e6c9;
+}
+
+.filters button {
+  margin-right: 10px;
+}
